@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,900;1,900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+}
+.operator{
+    background: #d90429;
+    color: #edf2f4;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #343a40;
+}
+
+body #calculator{
+    padding: 25px;
+    background: #2b2d42;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 25px;
+    box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.2%);
+    border-radius: 10px;
+
+}
+
+body #calculator input{
+    width: 330px;
+    height: 25px;
+    padding: 30px;
+    border: none;
+    font-size: 31px;
+    box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.2%);
+    border-radius:10px;
+}
+
+body #calculator #keys{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+body #calculator #keys div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+body #calculator #keys div #calc{
+    width: 390px;
+}
+
+
+body #calculator #keys button{
+    width: 90px;
+    height: 90px;
+    border: none;
+    box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.2%);
+    border-radius: 10px;
+    transition: .05s;
+
+}
+
+body #calculator #keys button:active{
+    transform: scale(1.1,1.1);
+    transition: .05s;
+}

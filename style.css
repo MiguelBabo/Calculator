@@ -69,6 +69,7 @@ body #calculator #keys button{
     border: none;
     box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.2%);
     border-radius: 10px;
+    cursor: pointer;
     transition: .05s;
 
 }

@@ -8,6 +8,8 @@ body{
 *{
     font-family: 'Nunito', sans-serif;
     font-size: 40px;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 .operator{
     background: #d90429;

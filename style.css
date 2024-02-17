@@ -69,12 +69,34 @@ body #calculator #keys button{
     border: none;
     box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.2%);
     border-radius: 10px;
-    cursor: pointer;
     transition: .05s;
-
+    cursor: pointer;
 }
 
 body #calculator #keys button:active{
     transform: scale(1.1,1.1);
     transition: .05s;
+}
+
+@media only screen and (max-width: 512px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body #calculator input{
+        width: 229px;
+    }
+
+    body #calculator #keys button{
+        width: 65px;
+        height: 65px;
+    }
+    body #calculator #keys div #calc{
+        width: 290px;
+    }
+
 }
